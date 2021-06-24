@@ -1,0 +1,2 @@
+repo init -u https://github.com/HyconOS/manifest -b eleven
+repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
